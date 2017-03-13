@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_weight="1">
+
+    <TextView
+        android:text="Oda do Piersi!
+
+Blaskiem ogół przyćmiewają,
+Najpiękniejsze kształty mają!
+Przez Boginię noszone,
+Do pieszczotek zrodzone.
+
+Do tulenia, do kochania,
+Do nieustannego głaskania.
+Do lizania, całowania,
+Przyjemnego przygryzania...
+
+(..) Więc bądź dumna z nich Kochanie
+I wciąż chowaj tylko dla mnie!"
+        android:id="@+id/textView"
+        android:layout_height="338dp"
+        android:layout_width="253dp"
+        android:textSize="18sp"
+        android:layout_weight="0.50" />
+
+</LinearLayout>
