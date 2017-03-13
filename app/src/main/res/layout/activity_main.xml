@@ -5,9 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        android:weightSum="1">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="przycisk 4"
+                android:layout_width="384dp"
+                android:layout_height="105dp"
+                android:id="@+id/button20"
+                android:layout_row="7"
+                android:layout_column="6" />
+        </GridLayout>
+    </LinearLayout>
+
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
 
         <RelativeLayout
