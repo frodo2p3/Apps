@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //fhyhfhgfdgfdhgfdfgdhghgfhg
+
         przycisk1 = (Button) findViewById(R.id.button17);
         przycisk2 = (Button) findViewById(R.id.button18);
         przycisk3 = (Button) findViewById(R.id.button19);
