@@ -8,6 +8,27 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_weight="0.50">
+
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button5"
+                android:layout_row="18"
+                android:layout_column="0" />
+        </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="271dp"
         android:weightSum="1">
 
@@ -22,6 +43,7 @@
                 android:id="@+id/button20"
                 android:layout_row="7"
                 android:layout_column="6" />
+
         </GridLayout>
     </LinearLayout>
 
@@ -71,4 +93,5 @@
 
         </RelativeLayout>
     </android.support.v4.widget.NestedScrollView>
+
 </android.support.design.widget.CoordinatorLayout>
